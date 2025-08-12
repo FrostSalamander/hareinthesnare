@@ -463,7 +463,15 @@
 
 // Uncomment this to enable a custom main menu title graphics
 // Use the defines below to specify which image to use and its size and position
-#define MM_SHOW_CUSTOM_MAINMENU_TITLE 1
+
+//stgatilov #5323: custom title image is deprecated!
+//#define MM_SHOW_CUSTOM_MAINMENU_TITLE 1
+
+//stgatilov #5323: use new way of setting background instead
+//since image has parchment imbued, override only main page background
+#define MM_BACKGROUNDS_MAINMENU_NOTINGAME BackgroundCustomHareSnare
+#define MM_BACKGROUNDS_EXTRAMENU_NOTINGAME BackgroundCustomHareSnare
+
 
 /**
  * This path refers to this file:
