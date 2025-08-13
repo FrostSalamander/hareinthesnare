@@ -1,9 +1,10 @@
-1.0.3-release:
+Version 4:
 
 bugs:
 - prevent frobbing of switch for Ingleby secret room from outside the room
 - prevent retrieval of T's journal through safe door
 - fix Percy getting stuck on the stairs landing
+- add missing monsterclip to Percy's flat downstairs
 
 gameplay:
 - remove loot on Dalton table
@@ -12,6 +13,7 @@ gameplay:
 - lower expert loot goal to 4500
 - unlock and partially open Inn side window and Percy's window
 - make maintenance closet only openable with a key
+- unlock hatch in Twistleton attic
 
 lighting/performance:
 - areaLock several models and func_emitters to stop rendering outside their visleaf
@@ -38,7 +40,6 @@ cosmetic:
 - replace textures on inn floors
 
 other:
-- add brief/debrief videos to git repo
 - transfer git repo to thedarkmodcommunity Github org
 - clean up menu background image
 
