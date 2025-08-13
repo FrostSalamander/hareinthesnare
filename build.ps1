@@ -1,4 +1,4 @@
-$rev = "1.0.3-release"
+$rev = "4"
 $revSuffix="_v$rev"
 
 $devMissionName = 'hits1'
