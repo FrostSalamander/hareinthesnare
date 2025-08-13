@@ -3,12 +3,15 @@
 bugs:
 - prevent frobbing of switch for Ingleby secret room from outside the room
 - prevent retrieval of T's journal through safe door
+- fix Percy getting stuck on the stairs landing
 
 gameplay:
 - remove loot on Dalton table
 - remove loot bag attached to sleeping merchant in inn
 - replace cups on T's balcony with cheap loot goblets
 - lower expert loot goal to 4500
+- unlock and partially open Inn side window and Percy's window
+- make maintenance closet only openable with a key
 
 lighting/performance:
 - areaLock several models and func_emitters to stop rendering outside their visleaf
