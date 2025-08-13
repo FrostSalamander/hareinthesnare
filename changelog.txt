@@ -14,6 +14,7 @@ gameplay:
 - unlock and partially open Inn side window and Percy's window
 - make maintenance closet only openable with a key
 - unlock hatch in Twistleton attic
+- make secret switches a bit easier to find
 
 lighting/performance:
 - areaLock several models and func_emitters to stop rendering outside their visleaf
