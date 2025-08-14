@@ -1,7 +1,7 @@
-$rev = "1.0.2-release"
+$rev = "4"
 $revSuffix="_v$rev"
 
-$devMissionName = 'dmmission1'
+$devMissionName = 'hits1'
 $missionName = 'hareinthesnare'
 $missionDir = "C:\games\darkmod_latest\fms\$devMissionName"
 $stagingDir = 'C:\Temp\dm_staging'

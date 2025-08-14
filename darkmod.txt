@@ -1,4 +1,5 @@
-Title: The Hare in the Snare, Pt. 1 
-Version: [VERSION]
-Author: Frost_Salamander & Kerry000
+Title: The Hare in the Snare, Pt. 1
 Description: People are being abducted off the streets and a Watch Captain requires the services of a thief to help him find out why.
+Version: 4
+Author: Frost_Salamander & Kerry000
+
