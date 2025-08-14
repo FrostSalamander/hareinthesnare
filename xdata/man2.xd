@@ -35,6 +35,7 @@ readables/man2/journal_thomas
 		"are moving people about, so it should be Roland in the kacky, not me! I'm not the one what broke the rules. And why do I have to do the bleedin' cooking for the nobs upstairs, also? They's fancy staff, so let them get they "
 		" own fancy cook!"
 		""
+		"   I was 'sposed to clean out the supply closet between the two apartments so's the young missus Ingleby can use it for storage, but now I'm "
 		""
 	}
 	"page2_right_title"	:
@@ -44,6 +45,7 @@ readables/man2/journal_thomas
 	"page2_right_body"	:
 	{
 		""
+		"doing the cooking I haven't been up there in days! "
 	}
 	"gui_page1"	: "guis/readables/books/book_hand_nancy.gui"
 	"gui_page2"	: "guis/readables/books/book_hand_nancy.gui"
