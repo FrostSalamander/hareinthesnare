@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1095006" } 
-		KeyValue { "LastCameraAngle" "-23.8 238.5 0" } 
-		KeyValue { "LastCameraPosition" "-192.129 -966.984 145.447" } 
+		KeyValue { "EditTimeInSeconds" "1095040" } 
+		KeyValue { "LastCameraAngle" "-52 131.5 0" } 
+		KeyValue { "LastCameraPosition" "377.885 1125.04 222.123" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/rough_wood_darkbrown_dull" } 
 	}
 	SelectionSets
@@ -12,7 +12,7 @@ DarkRadiant Map Information File Version 2
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1095006 }
+		TotalSecondsEdited { 1095040 }
 	}
 	SelectionGroups
 	{
@@ -1486,8 +1486,8 @@ DarkRadiant Map Information File Version 2
 		Node { ( 3734 ) ( 820 ) } // entity (func_static_2481)
 		Node { ( 3735 ) ( 820 ) } // entity (func_static_2482)
 		Node { ( 3772 ) ( 826 827 ) } // entity (atdm_ammo_waterarrow_8)
-		Node { ( 3789 ) ( 832 ) } // entity (closet_key)
-		Node { ( 3790 ) ( 831 ) } // entity (func_static_232)
+		Node { ( 3787 ) ( 832 ) } // entity (closet_key)
+		Node { ( 3788 ) ( 831 ) } // entity (func_static_232)
 	}
 	Layers
 	{
@@ -8996,8 +8996,6 @@ DarkRadiant Map Information File Version 2
 		Node { 6 } // brush (Brush)
 		Node { 0 } // entity (atdm_moveable_chair_simple01_1)
 		Node { 0 } // entity (atdm_moveable_chair_simple01_2)
-		Node { 0 } // entity (atdm_moveable_loot_goblet_old_3)
-		Node { 0 } // entity (atdm_moveable_loot_goblet_old_4)
 		Node { 0 } // entity (closet_key)
 		Node { 10 } // entity (func_static_232)
 		Node { 10 } // brush (Brush)
@@ -9017,5 +9015,7 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
+		Node { 0 } // entity (atdm_moveable_loot_goblet_old_3)
+		Node { 0 } // entity (atdm_moveable_loot_goblet_old_4)
 	}
 }
