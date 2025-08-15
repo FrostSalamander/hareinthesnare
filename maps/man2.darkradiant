@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1094648" } 
-		KeyValue { "LastCameraAngle" "-28.8 280.9 0" } 
-		KeyValue { "LastCameraPosition" "1054.28 489.502 -63.9438" } 
+		KeyValue { "EditTimeInSeconds" "1094734" } 
+		KeyValue { "LastCameraAngle" "29.6 116.7 0" } 
+		KeyValue { "LastCameraPosition" "52.1827 -233.742 -7.6183" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/common/monster_clip" } 
 	}
 	SelectionSets
@@ -12,7 +12,7 @@ DarkRadiant Map Information File Version 2
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1094648 }
+		TotalSecondsEdited { 1094734 }
 	}
 	SelectionGroups
 	{
@@ -1485,9 +1485,9 @@ DarkRadiant Map Information File Version 2
 		Node { ( 3733 ) ( 820 ) } // entity (func_static_2480)
 		Node { ( 3734 ) ( 820 ) } // entity (func_static_2481)
 		Node { ( 3735 ) ( 820 ) } // entity (func_static_2482)
-		Node { ( 3773 ) ( 826 827 ) } // entity (atdm_ammo_waterarrow_8)
-		Node { ( 3790 ) ( 832 ) } // entity (closet_key)
-		Node { ( 3791 ) ( 831 ) } // entity (func_static_232)
+		Node { ( 3772 ) ( 826 827 ) } // entity (atdm_ammo_waterarrow_8)
+		Node { ( 3789 ) ( 832 ) } // entity (closet_key)
+		Node { ( 3790 ) ( 831 ) } // entity (func_static_232)
 	}
 	Layers
 	{
@@ -8929,20 +8929,6 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 0 } // entity (func_static_2484)
 		Node { 0 } // brush (Brush)
-		Node { 0 } // entity (func_static_2485)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
-		Node { 0 } // brush (Brush)
 		Node { 9 } // entity (func_static_2486)
 		Node { 9 } // brush (Brush)
 		Node { 9 } // brush (Brush)
@@ -9016,5 +9002,19 @@ DarkRadiant Map Information File Version 2
 		Node { 10 } // brush (Brush)
 		Node { 2 } // entity (func_static_302)
 		Node { 2 } // brush (Brush)
+		Node { 0 } // entity (func_static_1827)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
 	}
 }
