@@ -2,17 +2,17 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1094470" } 
-		KeyValue { "LastCameraAngle" "11.4 321.1 0" } 
-		KeyValue { "LastCameraPosition" "384.896 1001.62 268.589" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/panels/beam_brown_old" } 
+		KeyValue { "EditTimeInSeconds" "1094648" } 
+		KeyValue { "LastCameraAngle" "-28.8 280.9 0" } 
+		KeyValue { "LastCameraPosition" "1054.28 489.502 -63.9438" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/common/monster_clip" } 
 	}
 	SelectionSets
 	{
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1094470 }
+		TotalSecondsEdited { 1094648 }
 	}
 	SelectionGroups
 	{
@@ -239,6 +239,7 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 829 { "" }
 		SelectionGroup 830 { "" }
 		SelectionGroup 831 { "" }
+		SelectionGroup 832 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -873,6 +874,8 @@ DarkRadiant Map Information File Version 2
 		Node { ( 1586 ) ( 265 ) } // entity (func_static_2632)
 		Node { ( 1587 ) ( 265 ) } // entity (func_static_2633)
 		Node { ( 1588 ) ( 265 ) } // entity (func_static_2539)
+		Node { ( 1593 ) ( 832 ) } // entity (func_static_1540)
+		Node { ( 1594 ) ( 832 ) } // entity (atdm_moveable_holder_small_plus_candle_short_3)
 		Node { ( 1595 ) ( 268 ) } // entity (func_static_1541)
 		Node { ( 1596 ) ( 268 ) } // entity (func_static_1542)
 		Node { ( 1604 ) ( 270 ) } // entity (func_static_1546)
@@ -1091,6 +1094,7 @@ DarkRadiant Map Information File Version 2
 		Node { ( 2108 ) ( 398 ) } // entity (sign_text2)
 		Node { ( 2109 ) ( 417 419 ) } // entity (sign_text3)
 		Node { ( 2112 ) ( 402 ) } // entity (atdm_lamp_oil_wall_copper_lit_10)
+		Node { ( 2122 ) ( 832 ) } // entity (atdm_readable_immobile_book01_1)
 		Node { ( 2152 ) ( 414 ) } // entity (func_static_1833)
 		Node { ( 2153 ) ( 414 ) } // entity (func_static_1834)
 		Node { ( 2155 ) ( 412 ) } // entity (func_static_1842)
@@ -1393,13 +1397,13 @@ DarkRadiant Map Information File Version 2
 		Node { ( 3302 ) ( 723 ) } // entity (func_static_2563)
 		Node { ( 3353 ) ( 728 ) } // entity (func_static_2110)
 		Node { ( 3354 ) ( 728 ) } // entity (func_static_2205)
-		Node { ( 3354 3366 ) ( 725 ) } // brush (Brush)
-		Node { ( 3354 3367 ) ( 725 ) } // brush (Brush)
 		Node { ( 3354 3368 ) ( 725 ) } // brush (Brush)
+		Node { ( 3354 3369 ) ( 725 ) } // brush (Brush)
+		Node { ( 3354 3370 ) ( 725 ) } // brush (Brush)
 		Node { ( 3355 ) ( 728 ) } // entity (func_static_2206)
-		Node { ( 3355 3369 ) ( 726 ) } // brush (Brush)
-		Node { ( 3355 3370 ) ( 726 ) } // brush (Brush)
 		Node { ( 3355 3371 ) ( 726 ) } // brush (Brush)
+		Node { ( 3355 3372 ) ( 726 ) } // brush (Brush)
+		Node { ( 3355 3373 ) ( 726 ) } // brush (Brush)
 		Node { ( 3367 ) ( 734 ) } // entity (func_static_2213)
 		Node { ( 3368 ) ( 733 ) } // entity (func_static_2214)
 		Node { ( 3370 ) ( 733 ) } // entity (func_static_2228)
@@ -1482,6 +1486,7 @@ DarkRadiant Map Information File Version 2
 		Node { ( 3734 ) ( 820 ) } // entity (func_static_2481)
 		Node { ( 3735 ) ( 820 ) } // entity (func_static_2482)
 		Node { ( 3773 ) ( 826 827 ) } // entity (atdm_ammo_waterarrow_8)
+		Node { ( 3790 ) ( 832 ) } // entity (closet_key)
 		Node { ( 3791 ) ( 831 ) } // entity (func_static_232)
 	}
 	Layers
@@ -3218,6 +3223,8 @@ DarkRadiant Map Information File Version 2
 		Node { 10 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 10 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // entity (CompassEasy2)
