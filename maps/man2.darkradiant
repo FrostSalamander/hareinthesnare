@@ -2,17 +2,17 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1094734" } 
-		KeyValue { "LastCameraAngle" "29.6 116.7 0" } 
-		KeyValue { "LastCameraPosition" "52.1827 -233.742 -7.6183" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/common/monster_clip" } 
+		KeyValue { "EditTimeInSeconds" "1095006" } 
+		KeyValue { "LastCameraAngle" "-23.8 238.5 0" } 
+		KeyValue { "LastCameraPosition" "-192.129 -966.984 145.447" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/rough_wood_darkbrown_dull" } 
 	}
 	SelectionSets
 	{
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1094734 }
+		TotalSecondsEdited { 1095006 }
 	}
 	SelectionGroups
 	{
@@ -1397,13 +1397,13 @@ DarkRadiant Map Information File Version 2
 		Node { ( 3302 ) ( 723 ) } // entity (func_static_2563)
 		Node { ( 3353 ) ( 728 ) } // entity (func_static_2110)
 		Node { ( 3354 ) ( 728 ) } // entity (func_static_2205)
-		Node { ( 3354 3368 ) ( 725 ) } // brush (Brush)
 		Node { ( 3354 3369 ) ( 725 ) } // brush (Brush)
 		Node { ( 3354 3370 ) ( 725 ) } // brush (Brush)
+		Node { ( 3354 3371 ) ( 725 ) } // brush (Brush)
 		Node { ( 3355 ) ( 728 ) } // entity (func_static_2206)
-		Node { ( 3355 3371 ) ( 726 ) } // brush (Brush)
 		Node { ( 3355 3372 ) ( 726 ) } // brush (Brush)
 		Node { ( 3355 3373 ) ( 726 ) } // brush (Brush)
+		Node { ( 3355 3374 ) ( 726 ) } // brush (Brush)
 		Node { ( 3367 ) ( 734 ) } // entity (func_static_2213)
 		Node { ( 3368 ) ( 733 ) } // entity (func_static_2214)
 		Node { ( 3370 ) ( 733 ) } // entity (func_static_2228)
@@ -3227,6 +3227,7 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
+		Node { 2 } // brush (Brush)
 		Node { 0 } // entity (CompassEasy2)
 		Node { 0 } // entity (LanternEasy2)
 		Node { 0 } // entity (SpyglassEasy2)
