@@ -2,9 +2,9 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1095656" } 
-		KeyValue { "LastCameraAngle" "-12 80.9 0" } 
-		KeyValue { "LastCameraPosition" "-162.183 -868.285 -53.3497" } 
+		KeyValue { "EditTimeInSeconds" "1096283" } 
+		KeyValue { "LastCameraAngle" "-31.6 118.7 0" } 
+		KeyValue { "LastCameraPosition" "-131.547 -1054.79 112.68" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/dark_rough" } 
 	}
 	SelectionSets
@@ -12,7 +12,7 @@ DarkRadiant Map Information File Version 2
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1095656 }
+		TotalSecondsEdited { 1096283 }
 	}
 	Layers
 	{
@@ -1608,11 +1608,6 @@ DarkRadiant Map Information File Version 2
 		Node { 2 } // brush (Brush)
 		Node { 2 } // brush (Brush)
 		Node { 2 } // brush (Brush)
-		Node { 2 } // brush (Brush)
-		Node { 2 } // brush (Brush)
-		Node { 2 } // brush (Brush)
-		Node { 2 } // brush (Brush)
-		Node { 2 } // brush (Brush)
 		Node { 17 } // brush (Brush)
 		Node { 2 } // brush (Brush)
 		Node { 2 } // brush (Brush)
@@ -1752,6 +1747,8 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
+		Node { 2 } // brush (Brush)
+		Node { 2 } // brush (Brush)
 		Node { 2 } // brush (Brush)
 		Node { 0 } // entity (CompassEasy2)
 		Node { 0 } // entity (LanternEasy2)
@@ -7272,7 +7269,6 @@ DarkRadiant Map Information File Version 2
 		Node { 17 } // entity (func_static_2380)
 		Node { 17 } // entity (func_static_2382)
 		Node { 17 } // entity (func_static_2387)
-		Node { 17 } // entity (func_static_2388)
 		Node { 17 } // entity (func_static_2390)
 		Node { 17 } // entity (func_static_2395)
 		Node { 17 } // entity (func_static_2396)
@@ -7537,6 +7533,7 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 0 } // entity (atdm_moveable_loot_goblet_old_3)
 		Node { 0 } // entity (atdm_moveable_loot_goblet_old_4)
+		Node { 0 } // entity (atdm_loot_coinstack_small_silver_1)
 	}
 	SelectionGroups
 	{
@@ -7734,7 +7731,6 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 780 { "" }
 		SelectionGroup 783 { "" }
 		SelectionGroup 789 { "" }
-		SelectionGroup 790 { "" }
 		SelectionGroup 791 { "" }
 		SelectionGroup 792 { "" }
 		SelectionGroup 793 { "" }
@@ -7965,10 +7961,9 @@ DarkRadiant Map Information File Version 2
 		Node { ( 0 1467 ) ( 791 ) } // brush (Brush)
 		Node { ( 0 1531 ) ( 780 ) } // brush (Brush)
 		Node { ( 0 1532 ) ( 780 ) } // brush (Brush)
-		Node { ( 0 1567 ) ( 789 ) } // brush (Brush)
-		Node { ( 0 1568 ) ( 790 ) } // patch (Patch)
-		Node { ( 0 1573 ) ( 794 ) } // brush (Brush)
-		Node { ( 0 1640 ) ( 818 ) } // brush (Brush)
+		Node { ( 0 1562 ) ( 789 ) } // brush (Brush)
+		Node { ( 0 1568 ) ( 794 ) } // brush (Brush)
+		Node { ( 0 1635 ) ( 818 ) } // brush (Brush)
 		Node { ( 54 ) ( 454 ) } // entity (func_static_10)
 		Node { ( 55 ) ( 454 ) } // entity (func_static_2)
 		Node { ( 56 ) ( 454 ) } // entity (func_static_8)
@@ -8921,13 +8916,13 @@ DarkRadiant Map Information File Version 2
 		Node { ( 3302 ) ( 723 ) } // entity (func_static_2563)
 		Node { ( 3353 ) ( 728 ) } // entity (func_static_2110)
 		Node { ( 3354 ) ( 728 ) } // entity (func_static_2205)
-		Node { ( 3354 3369 ) ( 725 ) } // brush (Brush)
-		Node { ( 3354 3370 ) ( 725 ) } // brush (Brush)
-		Node { ( 3354 3371 ) ( 725 ) } // brush (Brush)
+		Node { ( 3354 3366 ) ( 725 ) } // brush (Brush)
+		Node { ( 3354 3367 ) ( 725 ) } // brush (Brush)
+		Node { ( 3354 3368 ) ( 725 ) } // brush (Brush)
 		Node { ( 3355 ) ( 728 ) } // entity (func_static_2206)
-		Node { ( 3355 3372 ) ( 726 ) } // brush (Brush)
-		Node { ( 3355 3373 ) ( 726 ) } // brush (Brush)
-		Node { ( 3355 3374 ) ( 726 ) } // brush (Brush)
+		Node { ( 3355 3369 ) ( 726 ) } // brush (Brush)
+		Node { ( 3355 3370 ) ( 726 ) } // brush (Brush)
+		Node { ( 3355 3371 ) ( 726 ) } // brush (Brush)
 		Node { ( 3367 ) ( 734 ) } // entity (func_static_2213)
 		Node { ( 3368 ) ( 733 ) } // entity (func_static_2214)
 		Node { ( 3370 ) ( 733 ) } // entity (func_static_2228)
@@ -8974,43 +8969,39 @@ DarkRadiant Map Information File Version 2
 		Node { ( 3566 ) ( 783 ) } // entity (func_static_2368)
 		Node { ( 3567 ) ( 783 ) } // entity (func_static_2349)
 		Node { ( 3569 ) ( 830 ) } // entity (func_static_2327)
-		Node { ( 3595 ) ( 790 ) } // entity (func_static_2407)
-		Node { ( 3596 ) ( 790 ) } // entity (atdm_moveable_candle_wide2_1)
-		Node { ( 3602 ) ( 790 ) } // entity (atdm_readable_immobile_paper01_1)
-		Node { ( 3606 ) ( 789 ) } // entity (func_static_2405)
-		Node { ( 3609 ) ( 790 ) } // entity (atdm_readable_immobile_paper01_15)
-		Node { ( 3612 ) ( 830 ) } // entity (func_static_2412)
-		Node { ( 3644 ) ( 808 ) } // entity (ingleby_wine_rack)
-		Node { ( 3645 ) ( 808 ) } // entity (func_static_2431)
-		Node { ( 3646 ) ( 808 ) } // entity (func_static_2432)
-		Node { ( 3647 ) ( 808 ) } // entity (func_static_2433)
-		Node { ( 3648 ) ( 808 ) } // entity (func_static_2434)
-		Node { ( 3649 ) ( 808 ) } // entity (func_static_2435)
-		Node { ( 3650 ) ( 808 ) } // entity (func_static_2436)
-		Node { ( 3651 ) ( 808 ) } // entity (func_static_2437)
-		Node { ( 3652 ) ( 808 ) } // entity (func_static_2438)
-		Node { ( 3653 ) ( 808 ) } // entity (func_static_2439)
-		Node { ( 3654 ) ( 808 ) } // entity (func_static_2440)
-		Node { ( 3655 ) ( 808 ) } // entity (func_static_2441)
-		Node { ( 3656 ) ( 808 ) } // entity (func_static_2442)
-		Node { ( 3657 ) ( 808 ) } // entity (func_static_2443)
-		Node { ( 3674 ) ( 828 ) } // entity (func_static_2449)
-		Node { ( 3675 ) ( 828 ) } // entity (atdm_mover_lever_13)
-		Node { ( 3688 ) ( 813 814 ) } // entity (func_static_2457)
-		Node { ( 3689 ) ( 813 814 ) } // entity (atdm_moveable_shortsword_2)
-		Node { ( 3690 ) ( 813 814 ) } // entity (atdm_moveable_shortsword_4)
-		Node { ( 3691 ) ( 813 814 ) } // entity (atdm_moveable_shortsword_5)
-		Node { ( 3692 ) ( 813 814 ) } // entity (atdm_moveable_weapon_axe_battle_1)
-		Node { ( 3693 ) ( 813 814 ) } // entity (atdm_moveable_weapon_mace_1)
-		Node { ( 3726 ) ( 820 ) } // entity (func_static_2475)
-		Node { ( 3727 ) ( 820 ) } // entity (func_static_2476)
-		Node { ( 3728 ) ( 820 ) } // entity (func_static_2477)
-		Node { ( 3729 ) ( 820 ) } // entity (func_static_2478)
-		Node { ( 3730 ) ( 820 ) } // entity (func_static_2480)
-		Node { ( 3731 ) ( 820 ) } // entity (func_static_2481)
-		Node { ( 3732 ) ( 820 ) } // entity (func_static_2482)
-		Node { ( 3769 ) ( 826 827 ) } // entity (atdm_ammo_waterarrow_8)
-		Node { ( 3784 ) ( 832 ) } // entity (closet_key)
-		Node { ( 3785 ) ( 831 ) } // entity (func_static_232)
+		Node { ( 3605 ) ( 789 ) } // entity (func_static_2405)
+		Node { ( 3611 ) ( 830 ) } // entity (func_static_2412)
+		Node { ( 3643 ) ( 808 ) } // entity (ingleby_wine_rack)
+		Node { ( 3644 ) ( 808 ) } // entity (func_static_2431)
+		Node { ( 3645 ) ( 808 ) } // entity (func_static_2432)
+		Node { ( 3646 ) ( 808 ) } // entity (func_static_2433)
+		Node { ( 3647 ) ( 808 ) } // entity (func_static_2434)
+		Node { ( 3648 ) ( 808 ) } // entity (func_static_2435)
+		Node { ( 3649 ) ( 808 ) } // entity (func_static_2436)
+		Node { ( 3650 ) ( 808 ) } // entity (func_static_2437)
+		Node { ( 3651 ) ( 808 ) } // entity (func_static_2438)
+		Node { ( 3652 ) ( 808 ) } // entity (func_static_2439)
+		Node { ( 3653 ) ( 808 ) } // entity (func_static_2440)
+		Node { ( 3654 ) ( 808 ) } // entity (func_static_2441)
+		Node { ( 3655 ) ( 808 ) } // entity (func_static_2442)
+		Node { ( 3656 ) ( 808 ) } // entity (func_static_2443)
+		Node { ( 3673 ) ( 828 ) } // entity (func_static_2449)
+		Node { ( 3674 ) ( 828 ) } // entity (atdm_mover_lever_13)
+		Node { ( 3687 ) ( 813 814 ) } // entity (func_static_2457)
+		Node { ( 3688 ) ( 813 814 ) } // entity (atdm_moveable_shortsword_2)
+		Node { ( 3689 ) ( 813 814 ) } // entity (atdm_moveable_shortsword_4)
+		Node { ( 3690 ) ( 813 814 ) } // entity (atdm_moveable_shortsword_5)
+		Node { ( 3691 ) ( 813 814 ) } // entity (atdm_moveable_weapon_axe_battle_1)
+		Node { ( 3692 ) ( 813 814 ) } // entity (atdm_moveable_weapon_mace_1)
+		Node { ( 3725 ) ( 820 ) } // entity (func_static_2475)
+		Node { ( 3726 ) ( 820 ) } // entity (func_static_2476)
+		Node { ( 3727 ) ( 820 ) } // entity (func_static_2477)
+		Node { ( 3728 ) ( 820 ) } // entity (func_static_2478)
+		Node { ( 3729 ) ( 820 ) } // entity (func_static_2480)
+		Node { ( 3730 ) ( 820 ) } // entity (func_static_2481)
+		Node { ( 3731 ) ( 820 ) } // entity (func_static_2482)
+		Node { ( 3768 ) ( 826 827 ) } // entity (atdm_ammo_waterarrow_8)
+		Node { ( 3783 ) ( 832 ) } // entity (closet_key)
+		Node { ( 3784 ) ( 831 ) } // entity (func_static_232)
 	}
 }
