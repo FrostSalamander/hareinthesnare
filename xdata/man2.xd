@@ -1310,24 +1310,3 @@ readables/man2/Twistleton_Wife_Letter
 	"gui_page2"	: "guis/readables/sheets/sheet_paper_calig_mac_humaine.gui"
 	"snd_page_turn"	: "readable_page_turn"
 }
-
-
-readables/man2/inn_closed
-{
-	precache
-	"num_pages"	: "1"
-	"page1_title"	:
-	{
-		""
-	}
-	"page1_body"	:
-	{
-		"            "
-		""
-		"   LAST ROUND HAS BEEN CALLED"
-		""
-		"    NO NEW PATRONS. GO HOME!"
-	}
-	"gui_page1"	: "guis/readables/sheets/sheet_paper_hand_andrew_script.gui"
-	"snd_page_turn"	: "readable_page_turn"
-}
