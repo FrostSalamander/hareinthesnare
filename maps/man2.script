@@ -1,6 +1,8 @@
 float totalSecrets = 5;
 float totalSecretsFound = 0;
 
+float jacobsEvidenceFound = 0;
+
 void foundSecret()
 {
     totalSecretsFound++;
@@ -21,10 +23,11 @@ void frob_jacobs_letter()
 
 void poison_stew(entity stew)
 {
-    // Only allow this if you've found Jacobs
+    // Only allow this if you've completed the first objective
+    // and have found out what happened to Jacbos
     float objectiveState = $player1.getObjectiveState(1);
 
-    if (objectiveState == 1)
+    if (objectiveState == 1 && jacobsEvidenceFound)
     {
         // remove poison from inventory
         entity curr_item = $player1.getCurInvItemEntity();
@@ -40,9 +43,9 @@ void poison_stew(entity stew)
     }
 }
 
-void make_stew_froabable()
+void markEvidenceFound()
 {
-    $daltons_stew.setFrobable(1);
+    jacobsEvidenceFound = 1;
 }
 
 void triggerEnd()
