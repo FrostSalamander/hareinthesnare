@@ -3,6 +3,18 @@ float totalSecretsFound = 0;
 
 float jacobsEvidenceFound = 0;
 
+void frobPainting()
+{
+    entity safeDoor = $safe_door2;
+    entity painting = $func_static_676;
+    
+    if (!safeDoor.IsOpen())
+    {
+        frob_door(painting);
+    }
+
+}
+
 void foundSecret()
 {
     totalSecretsFound++;
