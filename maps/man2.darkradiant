@@ -1,18 +1,18 @@
 DarkRadiant Map Information File Version 2
 {
-	MapProperties
-	{
-		KeyValue { "EditTimeInSeconds" "1096593" } 
-		KeyValue { "LastCameraAngle" "-8.6 155.9 0" } 
-		KeyValue { "LastCameraPosition" "76.5492 619.457 109.316" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/dark_rough" } 
-	}
 	SelectionSets
 	{
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1096593 }
+		TotalSecondsEdited { 1097393 }
+	}
+	MapProperties
+	{
+		KeyValue { "EditTimeInSeconds" "1097393" } 
+		KeyValue { "LastCameraAngle" "-21 237.9 0" } 
+		KeyValue { "LastCameraPosition" "-116.436 -828.263 -51.4105" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/dark_rough" } 
 	}
 	Layers
 	{
@@ -1751,6 +1751,9 @@ DarkRadiant Map Information File Version 2
 		Node { 2 } // brush (Brush)
 		Node { 2 } // brush (Brush)
 		Node { 9 18 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
 		Node { 0 } // entity (CompassEasy2)
 		Node { 0 } // entity (LanternEasy2)
 		Node { 0 } // entity (SpyglassEasy2)
@@ -7509,6 +7512,10 @@ DarkRadiant Map Information File Version 2
 		Node { 9 18 } // brush (Brush)
 		Node { 9 18 } // brush (Brush)
 		Node { 9 18 } // patch (Patch)
+		Node { 0 } // entity (atdm_readable_immobile_paper01_9)
+		Node { 0 } // entity (atdm_latch_door_01_small_S_lock)
+		Node { 0 } // entity (atdm_latch_door_01_small_S_plateB)
+		Node { 0 } // entity (atdm_latch_door_01_small_S_plateA)
 	}
 	SelectionGroups
 	{
@@ -7734,6 +7741,9 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 830 { "" }
 		SelectionGroup 831 { "" }
 		SelectionGroup 832 { "" }
+		SelectionGroup 833 { "" }
+		SelectionGroup 834 { "" }
+		SelectionGroup 835 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -8830,13 +8840,13 @@ DarkRadiant Map Information File Version 2
 		Node { ( 3287 ) ( 723 ) } // entity (func_static_2563)
 		Node { ( 3338 ) ( 728 ) } // entity (func_static_2110)
 		Node { ( 3339 ) ( 728 ) } // entity (func_static_2205)
-		Node { ( 3339 3316 ) ( 725 ) } // brush (Brush)
-		Node { ( 3339 3317 ) ( 725 ) } // brush (Brush)
-		Node { ( 3339 3318 ) ( 725 ) } // brush (Brush)
+		Node { ( 3339 3319 ) ( 725 ) } // brush (Brush)
+		Node { ( 3339 3320 ) ( 725 ) } // brush (Brush)
+		Node { ( 3339 3321 ) ( 725 ) } // brush (Brush)
 		Node { ( 3340 ) ( 728 ) } // entity (func_static_2206)
-		Node { ( 3340 3319 ) ( 726 ) } // brush (Brush)
-		Node { ( 3340 3320 ) ( 726 ) } // brush (Brush)
-		Node { ( 3340 3321 ) ( 726 ) } // brush (Brush)
+		Node { ( 3340 3322 ) ( 726 ) } // brush (Brush)
+		Node { ( 3340 3323 ) ( 726 ) } // brush (Brush)
+		Node { ( 3340 3324 ) ( 726 ) } // brush (Brush)
 		Node { ( 3352 ) ( 734 ) } // entity (func_static_2213)
 		Node { ( 3353 ) ( 733 ) } // entity (func_static_2214)
 		Node { ( 3355 ) ( 733 ) } // entity (func_static_2228)
@@ -8871,6 +8881,10 @@ DarkRadiant Map Information File Version 2
 		Node { ( 3505 ) ( 776 ) } // entity (func_static_2331)
 		Node { ( 3506 ) ( 776 ) } // entity (func_static_2330)
 		Node { ( 3507 ) ( 776 ) } // entity (func_static_2332)
+		Node { ( 3509 ) ( 834 ) } // entity (atdm_door_96x48_2hinge_2)
+		Node { ( 3510 ) ( 833 834 ) } // entity (latch1)
+		Node { ( 3512 ) ( 833 834 ) } // entity (func_static_2014)
+		Node { ( 3513 ) ( 833 834 ) } // entity (handle_curved1)
 		Node { ( 3521 ) ( 780 ) } // entity (func_static_2341)
 		Node { ( 3522 ) ( 780 ) } // entity (func_static_2342)
 		Node { ( 3523 ) ( 780 ) } // entity (func_static_2340)
@@ -8917,5 +8931,8 @@ DarkRadiant Map Information File Version 2
 		Node { ( 3753 ) ( 826 827 ) } // entity (atdm_ammo_waterarrow_8)
 		Node { ( 3768 ) ( 832 ) } // entity (closet_key)
 		Node { ( 3769 ) ( 831 ) } // entity (func_static_232)
+		Node { ( 3780 ) ( 835 ) } // entity (atdm_latch_door_01_small_S_lock)
+		Node { ( 3781 ) ( 835 ) } // entity (atdm_latch_door_01_small_S_plateB)
+		Node { ( 3782 ) ( 835 ) } // entity (atdm_latch_door_01_small_S_plateA)
 	}
 }
