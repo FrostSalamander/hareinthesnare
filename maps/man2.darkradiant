@@ -5,13 +5,13 @@ DarkRadiant Map Information File Version 2
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1097600 }
+		TotalSecondsEdited { 1097673 }
 	}
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1097600" } 
-		KeyValue { "LastCameraAngle" "-35 60.7 0" } 
-		KeyValue { "LastCameraPosition" "1120.71 830.244 298.702" } 
+		KeyValue { "EditTimeInSeconds" "1097673" } 
+		KeyValue { "LastCameraAngle" "-12 239.9 0" } 
+		KeyValue { "LastCameraPosition" "-140.734 -796.467 -53.9956" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/dark_rough" } 
 	}
 	Layers
@@ -6945,14 +6945,7 @@ DarkRadiant Map Information File Version 2
 		Node { 17 } // entity (func_static_2332)
 		Node { 17 } // entity (atdm_brazier_large01_1)
 		Node { 6 } // entity (atdm_door_96x48_2hinge_2)
-		Node { 6 } // entity (latch1)
 		Node { 6 } // entity (latch2)
-		Node { 6 } // entity (func_static_2014)
-		Node { 6 } // patch (Patch)
-		Node { 6 } // patch (Patch)
-		Node { 6 } // patch (Patch)
-		Node { 6 } // patch (Patch)
-		Node { 6 } // entity (handle_curved1)
 		Node { 6 } // entity (info_locationseparator_31)
 		Node { 17 } // entity (location_alley)
 		Node { 0 } // entity (func_static_2590)
@@ -7516,6 +7509,9 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (atdm_latch_door_01_small_S_lock)
 		Node { 0 } // entity (atdm_latch_door_01_small_S_plateB)
 		Node { 0 } // entity (atdm_latch_door_01_small_S_plateA)
+		Node { 0 } // entity (func_static_2334)
+		Node { 0 } // entity (latch4)
+		Node { 0 } // entity (latch3)
 	}
 	SelectionGroups
 	{
@@ -7741,9 +7737,9 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 830 { "" }
 		SelectionGroup 831 { "" }
 		SelectionGroup 832 { "" }
-		SelectionGroup 833 { "" }
 		SelectionGroup 834 { "" }
 		SelectionGroup 835 { "" }
+		SelectionGroup 836 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -8882,57 +8878,57 @@ DarkRadiant Map Information File Version 2
 		Node { ( 3506 ) ( 776 ) } // entity (func_static_2330)
 		Node { ( 3507 ) ( 776 ) } // entity (func_static_2332)
 		Node { ( 3509 ) ( 834 ) } // entity (atdm_door_96x48_2hinge_2)
-		Node { ( 3510 ) ( 833 834 ) } // entity (latch1)
-		Node { ( 3512 ) ( 833 834 ) } // entity (func_static_2014)
-		Node { ( 3513 ) ( 833 834 ) } // entity (handle_curved1)
-		Node { ( 3521 ) ( 780 ) } // entity (func_static_2341)
-		Node { ( 3522 ) ( 780 ) } // entity (func_static_2342)
-		Node { ( 3523 ) ( 780 ) } // entity (func_static_2340)
-		Node { ( 3524 ) ( 780 ) } // entity (func_static_2345)
-		Node { ( 3525 ) ( 780 ) } // entity (func_static_2344)
-		Node { ( 3526 ) ( 780 ) } // entity (func_static_2343)
-		Node { ( 3548 ) ( 783 ) } // entity (func_static_2350)
-		Node { ( 3549 ) ( 783 ) } // entity (func_static_2367)
-		Node { ( 3550 ) ( 783 ) } // entity (func_static_2348)
-		Node { ( 3551 ) ( 783 ) } // entity (func_static_2368)
-		Node { ( 3552 ) ( 783 ) } // entity (func_static_2349)
-		Node { ( 3554 ) ( 830 ) } // entity (func_static_2327)
-		Node { ( 3590 ) ( 789 ) } // entity (func_static_2405)
-		Node { ( 3596 ) ( 830 ) } // entity (func_static_2412)
-		Node { ( 3628 ) ( 808 ) } // entity (ingleby_wine_rack)
-		Node { ( 3629 ) ( 808 ) } // entity (func_static_2431)
-		Node { ( 3630 ) ( 808 ) } // entity (func_static_2432)
-		Node { ( 3631 ) ( 808 ) } // entity (func_static_2433)
-		Node { ( 3632 ) ( 808 ) } // entity (func_static_2434)
-		Node { ( 3633 ) ( 808 ) } // entity (func_static_2435)
-		Node { ( 3634 ) ( 808 ) } // entity (func_static_2436)
-		Node { ( 3635 ) ( 808 ) } // entity (func_static_2437)
-		Node { ( 3636 ) ( 808 ) } // entity (func_static_2438)
-		Node { ( 3637 ) ( 808 ) } // entity (func_static_2439)
-		Node { ( 3638 ) ( 808 ) } // entity (func_static_2440)
-		Node { ( 3639 ) ( 808 ) } // entity (func_static_2441)
-		Node { ( 3640 ) ( 808 ) } // entity (func_static_2442)
-		Node { ( 3641 ) ( 808 ) } // entity (func_static_2443)
-		Node { ( 3658 ) ( 828 ) } // entity (func_static_2449)
-		Node { ( 3659 ) ( 828 ) } // entity (atdm_mover_lever_13)
-		Node { ( 3672 ) ( 813 814 ) } // entity (func_static_2457)
-		Node { ( 3673 ) ( 813 814 ) } // entity (atdm_moveable_shortsword_2)
-		Node { ( 3674 ) ( 813 814 ) } // entity (atdm_moveable_shortsword_4)
-		Node { ( 3675 ) ( 813 814 ) } // entity (atdm_moveable_shortsword_5)
-		Node { ( 3676 ) ( 813 814 ) } // entity (atdm_moveable_weapon_axe_battle_1)
-		Node { ( 3677 ) ( 813 814 ) } // entity (atdm_moveable_weapon_mace_1)
-		Node { ( 3710 ) ( 820 ) } // entity (func_static_2475)
-		Node { ( 3711 ) ( 820 ) } // entity (func_static_2476)
-		Node { ( 3712 ) ( 820 ) } // entity (func_static_2477)
-		Node { ( 3713 ) ( 820 ) } // entity (func_static_2478)
-		Node { ( 3714 ) ( 820 ) } // entity (func_static_2480)
-		Node { ( 3715 ) ( 820 ) } // entity (func_static_2481)
-		Node { ( 3716 ) ( 820 ) } // entity (func_static_2482)
-		Node { ( 3753 ) ( 826 827 ) } // entity (atdm_ammo_waterarrow_8)
-		Node { ( 3768 ) ( 832 ) } // entity (closet_key)
-		Node { ( 3769 ) ( 831 ) } // entity (func_static_232)
-		Node { ( 3780 ) ( 835 ) } // entity (atdm_latch_door_01_small_S_lock)
-		Node { ( 3781 ) ( 835 ) } // entity (atdm_latch_door_01_small_S_plateB)
-		Node { ( 3782 ) ( 835 ) } // entity (atdm_latch_door_01_small_S_plateA)
+		Node { ( 3518 ) ( 780 ) } // entity (func_static_2341)
+		Node { ( 3519 ) ( 780 ) } // entity (func_static_2342)
+		Node { ( 3520 ) ( 780 ) } // entity (func_static_2340)
+		Node { ( 3521 ) ( 780 ) } // entity (func_static_2345)
+		Node { ( 3522 ) ( 780 ) } // entity (func_static_2344)
+		Node { ( 3523 ) ( 780 ) } // entity (func_static_2343)
+		Node { ( 3545 ) ( 783 ) } // entity (func_static_2350)
+		Node { ( 3546 ) ( 783 ) } // entity (func_static_2367)
+		Node { ( 3547 ) ( 783 ) } // entity (func_static_2348)
+		Node { ( 3548 ) ( 783 ) } // entity (func_static_2368)
+		Node { ( 3549 ) ( 783 ) } // entity (func_static_2349)
+		Node { ( 3551 ) ( 830 ) } // entity (func_static_2327)
+		Node { ( 3587 ) ( 789 ) } // entity (func_static_2405)
+		Node { ( 3593 ) ( 830 ) } // entity (func_static_2412)
+		Node { ( 3625 ) ( 808 ) } // entity (ingleby_wine_rack)
+		Node { ( 3626 ) ( 808 ) } // entity (func_static_2431)
+		Node { ( 3627 ) ( 808 ) } // entity (func_static_2432)
+		Node { ( 3628 ) ( 808 ) } // entity (func_static_2433)
+		Node { ( 3629 ) ( 808 ) } // entity (func_static_2434)
+		Node { ( 3630 ) ( 808 ) } // entity (func_static_2435)
+		Node { ( 3631 ) ( 808 ) } // entity (func_static_2436)
+		Node { ( 3632 ) ( 808 ) } // entity (func_static_2437)
+		Node { ( 3633 ) ( 808 ) } // entity (func_static_2438)
+		Node { ( 3634 ) ( 808 ) } // entity (func_static_2439)
+		Node { ( 3635 ) ( 808 ) } // entity (func_static_2440)
+		Node { ( 3636 ) ( 808 ) } // entity (func_static_2441)
+		Node { ( 3637 ) ( 808 ) } // entity (func_static_2442)
+		Node { ( 3638 ) ( 808 ) } // entity (func_static_2443)
+		Node { ( 3655 ) ( 828 ) } // entity (func_static_2449)
+		Node { ( 3656 ) ( 828 ) } // entity (atdm_mover_lever_13)
+		Node { ( 3669 ) ( 813 814 ) } // entity (func_static_2457)
+		Node { ( 3670 ) ( 813 814 ) } // entity (atdm_moveable_shortsword_2)
+		Node { ( 3671 ) ( 813 814 ) } // entity (atdm_moveable_shortsword_4)
+		Node { ( 3672 ) ( 813 814 ) } // entity (atdm_moveable_shortsword_5)
+		Node { ( 3673 ) ( 813 814 ) } // entity (atdm_moveable_weapon_axe_battle_1)
+		Node { ( 3674 ) ( 813 814 ) } // entity (atdm_moveable_weapon_mace_1)
+		Node { ( 3707 ) ( 820 ) } // entity (func_static_2475)
+		Node { ( 3708 ) ( 820 ) } // entity (func_static_2476)
+		Node { ( 3709 ) ( 820 ) } // entity (func_static_2477)
+		Node { ( 3710 ) ( 820 ) } // entity (func_static_2478)
+		Node { ( 3711 ) ( 820 ) } // entity (func_static_2480)
+		Node { ( 3712 ) ( 820 ) } // entity (func_static_2481)
+		Node { ( 3713 ) ( 820 ) } // entity (func_static_2482)
+		Node { ( 3750 ) ( 826 827 ) } // entity (atdm_ammo_waterarrow_8)
+		Node { ( 3765 ) ( 832 ) } // entity (closet_key)
+		Node { ( 3766 ) ( 831 ) } // entity (func_static_232)
+		Node { ( 3777 ) ( 835 ) } // entity (atdm_latch_door_01_small_S_lock)
+		Node { ( 3778 ) ( 835 ) } // entity (atdm_latch_door_01_small_S_plateB)
+		Node { ( 3779 ) ( 835 ) } // entity (atdm_latch_door_01_small_S_plateA)
+		Node { ( 3780 ) ( 836 ) } // entity (func_static_2334)
+		Node { ( 3781 ) ( 836 ) } // entity (latch4)
+		Node { ( 3782 ) ( 836 ) } // entity (latch3)
 	}
 }
