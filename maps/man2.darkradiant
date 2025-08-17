@@ -2,14 +2,14 @@ DarkRadiant Map Information File Version 2
 {
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1100492" } 
-		KeyValue { "LastCameraAngle" "-23.8 157.3 0" } 
-		KeyValue { "LastCameraPosition" "1145.82 562.984 271.682" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/wood_brown_dull01" } 
+		KeyValue { "EditTimeInSeconds" "1102547" } 
+		KeyValue { "LastCameraAngle" "2 171.3 0" } 
+		KeyValue { "LastCameraPosition" "964.558 -63.1021 76.2459" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/weathered" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1100492 }
+		TotalSecondsEdited { 1102547 }
 	}
 	SelectionSets
 	{
@@ -1337,13 +1337,13 @@ DarkRadiant Map Information File Version 2
 		Node { ( 3270 ) ( 723 ) } // entity (func_static_2563)
 		Node { ( 3321 ) ( 728 ) } // entity (func_static_2110)
 		Node { ( 3322 ) ( 728 ) } // entity (func_static_2205)
-		Node { ( 3322 3304 ) ( 725 ) } // brush (Brush)
-		Node { ( 3322 3305 ) ( 725 ) } // brush (Brush)
-		Node { ( 3322 3306 ) ( 725 ) } // brush (Brush)
+		Node { ( 3322 3310 ) ( 725 ) } // brush (Brush)
+		Node { ( 3322 3311 ) ( 725 ) } // brush (Brush)
+		Node { ( 3322 3312 ) ( 725 ) } // brush (Brush)
 		Node { ( 3323 ) ( 728 ) } // entity (func_static_2206)
-		Node { ( 3323 3307 ) ( 726 ) } // brush (Brush)
-		Node { ( 3323 3308 ) ( 726 ) } // brush (Brush)
-		Node { ( 3323 3309 ) ( 726 ) } // brush (Brush)
+		Node { ( 3323 3313 ) ( 726 ) } // brush (Brush)
+		Node { ( 3323 3314 ) ( 726 ) } // brush (Brush)
+		Node { ( 3323 3315 ) ( 726 ) } // brush (Brush)
 		Node { ( 3335 ) ( 734 ) } // entity (func_static_2213)
 		Node { ( 3336 ) ( 733 ) } // entity (func_static_2214)
 		Node { ( 3338 ) ( 733 ) } // entity (func_static_2228)
@@ -3172,6 +3172,12 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 6 } // brush (Brush)
+		Node { 6 } // brush (Brush)
+		Node { 6 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // entity (CompassEasy2)
