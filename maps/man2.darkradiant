@@ -1,15 +1,18 @@
 DarkRadiant Map Information File Version 2
 {
-	MapEditTimings
-	{
-		TotalSecondsEdited { 1097775 }
-	}
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1097775" } 
-		KeyValue { "LastCameraAngle" "-10.6 274.7 0" } 
-		KeyValue { "LastCameraPosition" "611.002 -65.1878 -10.2146" } 
+		KeyValue { "EditTimeInSeconds" "1098825" } 
+		KeyValue { "LastCameraAngle" "-8.6 303.7 0" } 
+		KeyValue { "LastCameraPosition" "519.465 932.271 -28.8988" } 
 		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/dark_rough" } 
+	}
+	MapEditTimings
+	{
+		TotalSecondsEdited { 1098825 }
+	}
+	SelectionSets
+	{
 	}
 	SelectionGroups
 	{
@@ -1334,13 +1337,13 @@ DarkRadiant Map Information File Version 2
 		Node { ( 3287 ) ( 723 ) } // entity (func_static_2563)
 		Node { ( 3338 ) ( 728 ) } // entity (func_static_2110)
 		Node { ( 3339 ) ( 728 ) } // entity (func_static_2205)
-		Node { ( 3339 3319 ) ( 725 ) } // brush (Brush)
-		Node { ( 3339 3320 ) ( 725 ) } // brush (Brush)
 		Node { ( 3339 3321 ) ( 725 ) } // brush (Brush)
+		Node { ( 3339 3322 ) ( 725 ) } // brush (Brush)
+		Node { ( 3339 3323 ) ( 725 ) } // brush (Brush)
 		Node { ( 3340 ) ( 728 ) } // entity (func_static_2206)
-		Node { ( 3340 3322 ) ( 726 ) } // brush (Brush)
-		Node { ( 3340 3323 ) ( 726 ) } // brush (Brush)
 		Node { ( 3340 3324 ) ( 726 ) } // brush (Brush)
+		Node { ( 3340 3325 ) ( 726 ) } // brush (Brush)
+		Node { ( 3340 3326 ) ( 726 ) } // brush (Brush)
 		Node { ( 3352 ) ( 734 ) } // entity (func_static_2213)
 		Node { ( 3353 ) ( 733 ) } // entity (func_static_2214)
 		Node { ( 3355 ) ( 733 ) } // entity (func_static_2228)
@@ -3166,6 +3169,8 @@ DarkRadiant Map Information File Version 2
 		Node { 2 } // brush (Brush)
 		Node { 2 } // brush (Brush)
 		Node { 9 18 } // brush (Brush)
+		Node { 0 } // brush (Brush)
+		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
 		Node { 0 } // brush (Brush)
@@ -8926,8 +8931,5 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // entity (func_static_2334)
 		Node { 0 } // entity (latch4)
 		Node { 0 } // entity (latch3)
-	}
-	SelectionSets
-	{
 	}
 }
