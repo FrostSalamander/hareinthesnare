@@ -5,14 +5,14 @@ DarkRadiant Map Information File Version 2
 	}
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1103847" } 
-		KeyValue { "LastCameraAngle" "0.200004 68.9 0" } 
-		KeyValue { "LastCameraPosition" "-168.573 -1151.72 135.621" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/roof_framework_boards_large_old_mildew" } 
+		KeyValue { "EditTimeInSeconds" "1104175" } 
+		KeyValue { "LastCameraAngle" "-6 186.5 0" } 
+		KeyValue { "LastCameraPosition" "112.515 -606.629 112.75" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/common/monster_clip" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1103847 }
+		TotalSecondsEdited { 1104175 }
 	}
 	Layers
 	{
@@ -7720,6 +7720,10 @@ DarkRadiant Map Information File Version 2
 		SelectionGroup 835 { "" }
 		SelectionGroup 836 { "" }
 		SelectionGroup 837 { "" }
+		SelectionGroup 838 { "" }
+		SelectionGroup 841 { "" }
+		SelectionGroup 842 { "" }
+		SelectionGroup 843 { "" }
 	}
 	SelectionGroupNodeMapping
 	{
@@ -7880,6 +7884,7 @@ DarkRadiant Map Information File Version 2
 		Node { ( 0 1178 ) ( 618 ) } // brush (Brush)
 		Node { ( 0 1179 ) ( 618 ) } // brush (Brush)
 		Node { ( 0 1193 ) ( 636 ) } // brush (Brush)
+		Node { ( 0 1208 ) ( 841 842 843 ) } // patch (Patch)
 		Node { ( 0 1221 ) ( 704 705 ) } // brush (Brush)
 		Node { ( 0 1222 ) ( 704 705 ) } // brush (Brush)
 		Node { ( 0 1223 ) ( 704 705 ) } // brush (Brush)
@@ -7895,6 +7900,8 @@ DarkRadiant Map Information File Version 2
 		Node { ( 0 1275 ) ( 694 ) } // brush (Brush)
 		Node { ( 0 1279 ) ( 721 ) } // brush (Brush)
 		Node { ( 0 1287 ) ( 703 ) } // brush (Brush)
+		Node { ( 0 1288 ) ( 838 ) } // brush (Brush)
+		Node { ( 0 1297 ) ( 843 ) } // brush (Brush)
 		Node { ( 0 1333 ) ( 818 ) } // brush (Brush)
 		Node { ( 0 1334 ) ( 818 ) } // brush (Brush)
 		Node { ( 0 1335 ) ( 818 ) } // brush (Brush)
@@ -8152,6 +8159,7 @@ DarkRadiant Map Information File Version 2
 		Node { ( 706 ) ( 211 ) } // entity (func_static_644)
 		Node { ( 721 ) ( 61 ) } // entity (atdm_handle_curved_rotate_double_right_4)
 		Node { ( 722 ) ( 61 ) } // entity (func_static_682)
+		Node { ( 727 ) ( 838 ) } // entity (func_static_688)
 		Node { ( 728 ) ( 703 ) } // entity (func_static_689)
 		Node { ( 738 ) ( 577 ) } // entity (atdm_handle_curved_rotate_double_right_7)
 		Node { ( 739 ) ( 577 ) } // entity (func_static_697)
@@ -8748,7 +8756,13 @@ DarkRadiant Map Information File Version 2
 		Node { ( 3000 ) ( 642 ) } // entity (func_static_2044)
 		Node { ( 3001 ) ( 642 ) } // entity (func_static_2046)
 		Node { ( 3002 ) ( 642 ) } // entity (func_static_2045)
+		Node { ( 3011 ) ( 841 842 843 ) } // entity (ChestFrobControl_2)
+		Node { ( 3012 ) ( 842 843 ) } // entity (FootlockerLid_2)
+		Node { ( 3013 ) ( 841 842 843 ) } // entity (FootLockerBody_2)
+		Node { ( 3014 ) ( 841 842 843 ) } // entity (FrobLockHandle1)
+		Node { ( 3015 ) ( 841 842 843 ) } // entity (atdm_readable_mobile_scroll01_1)
 		Node { ( 3026 ) ( 798 ) } // entity (atdm_readable_immobile_paper01_5)
+		Node { ( 3030 ) ( 841 842 843 ) } // entity (iron_door_key)
 		Node { ( 3035 ) ( 681 798 ) } // entity (func_static_1736)
 		Node { ( 3053 ) ( 704 705 ) } // entity (atdm_playertools_flashbomb_1)
 		Node { ( 3054 ) ( 704 705 ) } // entity (atdm_playertools_flashbomb_3)
