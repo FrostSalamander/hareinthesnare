@@ -5,14 +5,14 @@ DarkRadiant Map Information File Version 2
 	}
 	MapProperties
 	{
-		KeyValue { "EditTimeInSeconds" "1103198" } 
-		KeyValue { "LastCameraAngle" "21.8 347.3 0" } 
-		KeyValue { "LastCameraPosition" "209.003 -325.167 283.995" } 
-		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/wood_brown_walnut02" } 
+		KeyValue { "EditTimeInSeconds" "1103847" } 
+		KeyValue { "LastCameraAngle" "0.200004 68.9 0" } 
+		KeyValue { "LastCameraPosition" "-168.573 -1151.72 135.621" } 
+		KeyValue { "LastShaderClipboardMaterial" "textures/darkmod/wood/boards/roof_framework_boards_large_old_mildew" } 
 	}
 	MapEditTimings
 	{
-		TotalSecondsEdited { 1103198 }
+		TotalSecondsEdited { 1103847 }
 	}
 	Layers
 	{
@@ -1761,6 +1761,7 @@ DarkRadiant Map Information File Version 2
 		Node { 9 } // brush (Brush)
 		Node { 9 } // brush (Brush)
 		Node { 2 } // brush (Brush)
+		Node { 0 } // brush (Brush)
 		Node { 0 } // entity (CompassEasy2)
 		Node { 0 } // entity (LanternEasy2)
 		Node { 0 } // entity (SpyglassEasy2)
@@ -7489,6 +7490,7 @@ DarkRadiant Map Information File Version 2
 		Node { 0 } // brush (Brush)
 		Node { 10 } // entity (func_static_2485)
 		Node { 8 } // entity (func_static_1395)
+		Node { 4 } // entity (func_static_2504)
 	}
 	SelectionGroups
 	{
@@ -8818,13 +8820,13 @@ DarkRadiant Map Information File Version 2
 		Node { ( 3269 ) ( 723 ) } // entity (func_static_2563)
 		Node { ( 3320 ) ( 728 ) } // entity (func_static_2110)
 		Node { ( 3321 ) ( 728 ) } // entity (func_static_2205)
-		Node { ( 3321 3309 ) ( 725 ) } // brush (Brush)
 		Node { ( 3321 3310 ) ( 725 ) } // brush (Brush)
 		Node { ( 3321 3311 ) ( 725 ) } // brush (Brush)
+		Node { ( 3321 3312 ) ( 725 ) } // brush (Brush)
 		Node { ( 3322 ) ( 728 ) } // entity (func_static_2206)
-		Node { ( 3322 3312 ) ( 726 ) } // brush (Brush)
 		Node { ( 3322 3313 ) ( 726 ) } // brush (Brush)
 		Node { ( 3322 3314 ) ( 726 ) } // brush (Brush)
+		Node { ( 3322 3315 ) ( 726 ) } // brush (Brush)
 		Node { ( 3334 ) ( 734 ) } // entity (func_static_2213)
 		Node { ( 3335 ) ( 733 ) } // entity (func_static_2214)
 		Node { ( 3337 ) ( 733 ) } // entity (func_static_2228)
